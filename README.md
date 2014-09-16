@@ -37,9 +37,9 @@ Make sure the dependencies are met.
 
 * [SQLite](http://www.sqlite.org/)
 * [OpenCV](http://opencv.org) with python bindings (I'm using the trunk version)
-* [Tornado](http://www.tornadoweb.org)
+* [Tornado](http://www.tornadoweb.org) $ pip install tornado
 * [PIL](http://www.pythonware.com/products/pil/) $ pip install pillow
-* [Peewee](https://github.com/coleifer/peewee)
+* [Peewee](https://github.com/coleifer/peewee) $ pip install peewee
 * [scikit-learn](http://scikit-learn.org/stable/) (for running the crossvalidation)
 
 Create the database by issuing the following in the data folder `sqlite3 images.db < ../db/create_db.sql`.
